@@ -1,0 +1,6 @@
+EXTRA_CFLAGS = -Wall -g
+
+//obj-m        = modul.o
+obj-m = lkm1.o lkm2.o  lkm3.o  lkm4.o 
+//obj-m        = supermodule.o
+//supermodule-y = lkm2.o lkm1.o
